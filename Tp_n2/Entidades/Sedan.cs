@@ -29,7 +29,7 @@ namespace Entidades
 
         #region Constructor
         /// <summary>
-        /// Por defecto, TIPO será Monovolumen
+        /// Por defecto, ETipo será CuatroPuertas
         /// </summary>
         /// <param name="marca"></param>
         /// <param name="chasis"></param>
