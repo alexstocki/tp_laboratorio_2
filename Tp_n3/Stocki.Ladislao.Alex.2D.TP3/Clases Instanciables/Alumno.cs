@@ -2,14 +2,13 @@
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using Clases_Abstractas;
-using static Clases_Instanciables.Universidad;
 
 namespace Clases_Instanciables
 {
     public sealed class Alumno : Universitario
     {
         #region Atributos 
-        private EClases claseQueToma;
+        private Universidad.EClases claseQueToma;
         private EEstadoCuenta estadoCuenta;
         #endregion
 
@@ -19,13 +18,13 @@ namespace Clases_Instanciables
 
         }
 
-        public Alumno(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad, EClases claseQueToma)
+        public Alumno(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad, Universidad.EClases claseQueToma)
             : base(id, nombre, apellido, dni, nacionalidad)
         {
             this.claseQueToma = claseQueToma;
         }
 
-        public Alumno(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad, EClases claseQueToma, EEstadoCuenta estadoCuenta)
+        public Alumno(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad, Universidad.EClases claseQueToma, EEstadoCuenta estadoCuenta)
             : this(id, nombre, apellido, dni, nacionalidad, claseQueToma)
         {
             this.estadoCuenta = estadoCuenta;
@@ -49,7 +48,7 @@ namespace Clases_Instanciables
         /// <param name="alumno"></param>
         /// <param name="clase"></param>
         /// <returns>True si toma la clase, False caso contario</returns>
-        public static bool operator ==(Alumno alumno, EClases clase)
+        public static bool operator ==(Alumno alumno, Universidad.EClases clase)
         {
             if (alumno.claseQueToma == clase)
             {
@@ -67,7 +66,7 @@ namespace Clases_Instanciables
         /// <param name="alumno"></param>
         /// <param name="clase"></param>
         /// <returns>True si no la toma, False caso contrario</returns>
-        public static bool operator !=(Alumno alumno, EClases clase)
+        public static bool operator !=(Alumno alumno, Universidad.EClases clase)
         {
             return alumno.claseQueToma != clase;
         }

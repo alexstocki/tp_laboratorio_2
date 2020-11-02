@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Text;
 using Clases_Abstractas;
-using static Clases_Instanciables.Universidad;
 using System.Threading;
 using System.Text.RegularExpressions;
 
@@ -11,7 +10,7 @@ namespace Clases_Instanciables
     public sealed class Profesor : Universitario
     {
         #region Atributos
-        private Queue<EClases> clasesDelDia;
+        private Queue<Universidad.EClases> clasesDelDia;
         private static Random random;
         #endregion
 
@@ -31,22 +30,22 @@ namespace Clases_Instanciables
                 {
                     case 0:
                         {
-                            this.clasesDelDia.Enqueue(EClases.Programacion);
+                            this.clasesDelDia.Enqueue(Universidad.EClases.Programacion);
                             break;
                         }
                     case 1:
                         {
-                            this.clasesDelDia.Enqueue(EClases.Laboratorio);
+                            this.clasesDelDia.Enqueue(Universidad.EClases.Laboratorio);
                             break;
                         }
                     case 2:
                         {
-                            this.clasesDelDia.Enqueue(EClases.Legislacion);
+                            this.clasesDelDia.Enqueue(Universidad.EClases.Legislacion);
                             break;
                         }
                     default:
                         {
-                            this.clasesDelDia.Enqueue(EClases.SPD);
+                            this.clasesDelDia.Enqueue(Universidad.EClases.SPD);
                             break;
                         }
                 }
@@ -71,9 +70,9 @@ namespace Clases_Instanciables
         /// <param name="profesor"></param>
         /// <param name="clase"></param>
         /// <returns>True si da la clase, False caso contrario</returns>
-        public static bool operator ==(Profesor profesor, EClases clase)
+        public static bool operator ==(Profesor profesor, Universidad.EClases clase)
         {
-            foreach (EClases c in profesor.clasesDelDia)
+            foreach (Universidad.EClases c in profesor.clasesDelDia)
             {
                 if (c == clase)
                 {
@@ -89,7 +88,7 @@ namespace Clases_Instanciables
         /// <param name="profesor"></param>
         /// <param name="clase"></param>
         /// <returns>True si no da la clase, False caso contrario</returns>
-        public static bool operator !=(Profesor profesor, EClases clase)
+        public static bool operator !=(Profesor profesor, Universidad.EClases clase)
         {
             return !(profesor == clase);
         }
@@ -102,7 +101,7 @@ namespace Clases_Instanciables
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine("CLASES DEL DIA");
-            foreach (EClases clase in this.clasesDelDia)
+            foreach (Universidad.EClases clase in this.clasesDelDia)
             {
                 sb.AppendFormat("{0}", clase.ToString());
             }
@@ -121,7 +120,7 @@ namespace Clases_Instanciables
 
         public Profesor(int id, string nombre, string apellido, string dni, ENacionalidad nacionalidad)
         {
-            this.clasesDelDia = new Queue<EClases>();
+            this.clasesDelDia = new Queue<Universidad.EClases>();
             this._randonClase();
         }
 

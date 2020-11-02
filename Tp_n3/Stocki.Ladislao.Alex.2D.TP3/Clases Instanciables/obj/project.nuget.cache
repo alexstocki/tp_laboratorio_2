@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "LqunsXTvq2qapRuQFC0SuhZ+2/BCJQlE8svkgpDYwbf1wAF3PFTaBZmyQkvbznF8VLopg5pirsJ5ZGUZ9rLOWg==",
+  "dgSpecHash": "RlmS9gNz600m37KmwLmT1NDLJQd/7dg+wjph0W2i40uWJEDw7zk2uf83TzQpfDhir/6kdAcLmt6W3OlBDcM9SQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alex\\Documents\\GitHub\\Laboratorio_2_materiales\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\Clases Instanciables\\Clases Instanciables.csproj",
+  "projectFilePath": "C:\\Users\\ladislao.alex.stocki\\Documents\\GitHub\\tp_laboratorio_2\\Tp_n3\\Stocki.Ladislao.Alex.2D.TP3\\Clases Instanciables\\Clases Instanciables.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Alex\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Alex\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\ladislao.alex.stocki\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ladislao.alex.stocki\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Text;
 using Clases_Abstractas;
-using static Clases_Instanciables.Universidad;
 using Excepciones;
 using Archivos;
 
@@ -12,14 +11,14 @@ namespace Clases_Instanciables
     {
         #region Atributos
         private List<Alumno> alumnos;
-        private EClases clase;
+        private Universidad.EClases clase;
         private Profesor instructor;
         #endregion
 
         #region Propiedades
         public List<Alumno> Alumnos { get { return this.alumnos; } set { this.alumnos = value; } }
         
-        public EClases Clase { get { return this.clase; } set { this.clase = value; } }
+        public Universidad.EClases Clase { get { return this.clase; } set { this.clase = value; } }
 
         public Profesor Instructor { get { return this.instructor; } set { this.instructor = value; } }
         #endregion
@@ -30,7 +29,7 @@ namespace Clases_Instanciables
         /// </summary>
         /// <param name="jornada"></param>
         /// <returns>True si se guarda el archivo, False caso contrario</returns>
-        public bool Guardar(Jornada jornada)
+        public static bool Guardar(Jornada jornada)
         {
             try
             {
@@ -50,7 +49,7 @@ namespace Clases_Instanciables
             this.alumnos = new List<Alumno>();
         }
 
-        public Jornada(EClases clase, Profesor instructor)
+        public Jornada(Universidad.EClases clase, Profesor instructor)
         {
             this.Clase = clase;
             this.Instructor = instructor;

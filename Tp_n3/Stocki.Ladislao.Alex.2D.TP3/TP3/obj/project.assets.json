@@ -107,23 +107,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Alex\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\ladislao.alex.stocki\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alex\\Documents\\GitHub\\Laboratorio_2_materiales\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\TP3\\TP3.csproj",
+      "projectUniqueName": "C:\\Users\\ladislao.alex.stocki\\Documents\\GitHub\\tp_laboratorio_2\\Tp_n3\\Stocki.Ladislao.Alex.2D.TP3\\TP3\\TP3.csproj",
       "projectName": "TP3",
-      "projectPath": "C:\\Users\\Alex\\Documents\\GitHub\\Laboratorio_2_materiales\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\TP3\\TP3.csproj",
-      "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alex\\Documents\\GitHub\\Laboratorio_2_materiales\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\TP3\\obj\\",
+      "projectPath": "C:\\Users\\ladislao.alex.stocki\\Documents\\GitHub\\tp_laboratorio_2\\Tp_n3\\Stocki.Ladislao.Alex.2D.TP3\\TP3\\TP3.csproj",
+      "packagesPath": "C:\\Users\\ladislao.alex.stocki\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ladislao.alex.stocki\\Documents\\GitHub\\tp_laboratorio_2\\Tp_n3\\Stocki.Ladislao.Alex.2D.TP3\\TP3\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ladislao.alex.stocki\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -136,20 +132,20 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Alex\\Documents\\GitHub\\Laboratorio_2_materiales\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\Archivos\\Archivos.csproj": {
-              "projectPath": "C:\\Users\\Alex\\Documents\\GitHub\\Laboratorio_2_materiales\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\Archivos\\Archivos.csproj"
+            "C:\\Users\\ladislao.alex.stocki\\Documents\\GitHub\\tp_laboratorio_2\\Tp_n3\\Stocki.Ladislao.Alex.2D.TP3\\Archivos\\Archivos.csproj": {
+              "projectPath": "C:\\Users\\ladislao.alex.stocki\\Documents\\GitHub\\tp_laboratorio_2\\Tp_n3\\Stocki.Ladislao.Alex.2D.TP3\\Archivos\\Archivos.csproj"
             },
-            "C:\\Users\\Alex\\Documents\\GitHub\\Laboratorio_2_materiales\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\Clases Abstractas\\Clases Abstractas.csproj": {
-              "projectPath": "C:\\Users\\Alex\\Documents\\GitHub\\Laboratorio_2_materiales\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\Clases Abstractas\\Clases Abstractas.csproj"
+            "C:\\Users\\ladislao.alex.stocki\\Documents\\GitHub\\tp_laboratorio_2\\Tp_n3\\Stocki.Ladislao.Alex.2D.TP3\\Clases Abstractas\\Clases Abstractas.csproj": {
+              "projectPath": "C:\\Users\\ladislao.alex.stocki\\Documents\\GitHub\\tp_laboratorio_2\\Tp_n3\\Stocki.Ladislao.Alex.2D.TP3\\Clases Abstractas\\Clases Abstractas.csproj"
             },
-            "C:\\Users\\Alex\\Documents\\GitHub\\Laboratorio_2_materiales\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\Clases Instanciables\\Clases Instanciables.csproj": {
-              "projectPath": "C:\\Users\\Alex\\Documents\\GitHub\\Laboratorio_2_materiales\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\Clases Instanciables\\Clases Instanciables.csproj"
+            "C:\\Users\\ladislao.alex.stocki\\Documents\\GitHub\\tp_laboratorio_2\\Tp_n3\\Stocki.Ladislao.Alex.2D.TP3\\Clases Instanciables\\Clases Instanciables.csproj": {
+              "projectPath": "C:\\Users\\ladislao.alex.stocki\\Documents\\GitHub\\tp_laboratorio_2\\Tp_n3\\Stocki.Ladislao.Alex.2D.TP3\\Clases Instanciables\\Clases Instanciables.csproj"
             },
-            "C:\\Users\\Alex\\Documents\\GitHub\\Laboratorio_2_materiales\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\Excepciones\\Excepciones.csproj": {
-              "projectPath": "C:\\Users\\Alex\\Documents\\GitHub\\Laboratorio_2_materiales\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\Excepciones\\Excepciones.csproj"
+            "C:\\Users\\ladislao.alex.stocki\\Documents\\GitHub\\tp_laboratorio_2\\Tp_n3\\Stocki.Ladislao.Alex.2D.TP3\\Excepciones\\Excepciones.csproj": {
+              "projectPath": "C:\\Users\\ladislao.alex.stocki\\Documents\\GitHub\\tp_laboratorio_2\\Tp_n3\\Stocki.Ladislao.Alex.2D.TP3\\Excepciones\\Excepciones.csproj"
             },
-            "C:\\Users\\Alex\\Documents\\GitHub\\Laboratorio_2_materiales\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\TestUnitarios\\TestUnitarios.csproj": {
-              "projectPath": "C:\\Users\\Alex\\Documents\\GitHub\\Laboratorio_2_materiales\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\TestUnitarios\\TestUnitarios.csproj"
+            "C:\\Users\\ladislao.alex.stocki\\Documents\\GitHub\\tp_laboratorio_2\\Tp_n3\\Stocki.Ladislao.Alex.2D.TP3\\TestUnitarios\\TestUnitarios.csproj": {
+              "projectPath": "C:\\Users\\ladislao.alex.stocki\\Documents\\GitHub\\tp_laboratorio_2\\Tp_n3\\Stocki.Ladislao.Alex.2D.TP3\\TestUnitarios\\TestUnitarios.csproj"
             }
           }
         }

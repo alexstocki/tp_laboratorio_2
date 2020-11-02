@@ -196,23 +196,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Alex\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\ladislao.alex.stocki\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alex\\Documents\\GitHub\\Laboratorio_2_materiales\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\Clases Abstractas\\Clases Abstractas.csproj",
+      "projectUniqueName": "C:\\Users\\ladislao.alex.stocki\\Documents\\GitHub\\tp_laboratorio_2\\Tp_n3\\Stocki.Ladislao.Alex.2D.TP3\\Clases Abstractas\\Clases Abstractas.csproj",
       "projectName": "Clases Abstractas",
-      "projectPath": "C:\\Users\\Alex\\Documents\\GitHub\\Laboratorio_2_materiales\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\Clases Abstractas\\Clases Abstractas.csproj",
-      "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alex\\Documents\\GitHub\\Laboratorio_2_materiales\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\Clases Abstractas\\obj\\",
+      "projectPath": "C:\\Users\\ladislao.alex.stocki\\Documents\\GitHub\\tp_laboratorio_2\\Tp_n3\\Stocki.Ladislao.Alex.2D.TP3\\Clases Abstractas\\Clases Abstractas.csproj",
+      "packagesPath": "C:\\Users\\ladislao.alex.stocki\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ladislao.alex.stocki\\Documents\\GitHub\\tp_laboratorio_2\\Tp_n3\\Stocki.Ladislao.Alex.2D.TP3\\Clases Abstractas\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ladislao.alex.stocki\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -225,8 +221,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\Alex\\Documents\\GitHub\\Laboratorio_2_materiales\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\Excepciones\\Excepciones.csproj": {
-              "projectPath": "C:\\Users\\Alex\\Documents\\GitHub\\Laboratorio_2_materiales\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\Excepciones\\Excepciones.csproj"
+            "C:\\Users\\ladislao.alex.stocki\\Documents\\GitHub\\tp_laboratorio_2\\Tp_n3\\Stocki.Ladislao.Alex.2D.TP3\\Excepciones\\Excepciones.csproj": {
+              "projectPath": "C:\\Users\\ladislao.alex.stocki\\Documents\\GitHub\\tp_laboratorio_2\\Tp_n3\\Stocki.Ladislao.Alex.2D.TP3\\Excepciones\\Excepciones.csproj"
             }
           }
         }

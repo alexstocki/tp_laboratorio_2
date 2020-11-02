@@ -60,7 +60,7 @@ namespace Clases_Instanciables
         /// </summary>
         /// <param name="uni"></param>
         /// <returns>True si serializa con exito, False caso contrario</returns>
-        public bool Guardar(Universidad uni)
+        public static bool Guardar(Universidad uni)
         {
             try
             {
