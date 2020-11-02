@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "TGx9sbNYvLuxW8rhVWWXeoKACpWwClUPvRx0w4wzf2AEj101tPbeBzJzmdWgEeU27Cpu7yTP/HakaO9lmmam3Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alex\\Documents\\GitHub\\Laboratorio_2_materiales\\TP4\\Stocki.Ladislao.Alex.2D.TP4\\Archivos\\Archivos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alex\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Alex\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
